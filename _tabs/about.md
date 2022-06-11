@@ -1,8 +1,14 @@
 ---
-title: About
+title: About Me
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+
+# Certifications
+
+{% include_relative resume/solutions_architect.html %}{% include_relative resume/developer.html %}
+
+# My Resume
+
+{% include_relative resume/resume.html %}
